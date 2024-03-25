@@ -1,5 +1,5 @@
 class AppConstants {
   static String baseUrl = 'https://codingarabic.online/api';
-  static String loginKey = '/login';
-  static String registerKey = '/register';
+  static String loginEndpoint = '/login';
+  static String registerEndpoint = '/register';
 }
