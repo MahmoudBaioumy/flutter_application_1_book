@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/core/Services/dio_helper/dio_helper.dart';
+import 'package:flutter_application_1/core/Services/sp_helper/sp_helper.dart';
 import 'package:flutter_application_1/core/utils/Text_Styles.dart';
 import 'package:flutter_application_1/core/utils/app_colors.dart';
-import 'package:flutter_application_1/features/intro/Splash/splash_view.dart';
+import 'package:flutter_application_1/features/home/presention/view/home_view.dart';
 
 void main() {
+  DioHelper.init();
+  SharedPreferencHelper.init();
   runApp(const MainApp());
 }
 
@@ -41,6 +45,6 @@ class MainApp extends StatelessWidget {
                 borderSide: BorderSide(color: AppColor.greycolor),
               ),
             )),
-        home: const Splash_view());
+        home: const home_view());
   }
 }

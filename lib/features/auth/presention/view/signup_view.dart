@@ -15,12 +15,11 @@ class signup_viwe extends StatefulWidget {
 }
 
 class _signup_viweState extends State<signup_viwe> {
-  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState>  _formKey = GlobalKey<FormState>();
   final TextEditingController _displayName = TextEditingController();
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  final TextEditingController _passwordController_Confirm =
-      TextEditingController();
+  final TextEditingController _passwordController_Confirm = TextEditingController();
   @override
   bool isVisable = true;
   @override

@@ -81,7 +81,7 @@ class _login_viewState extends State<login_view> {
                       padding: const EdgeInsets.all(20),
                       child: Column(
                         children: [
-                          ////////////// second////////////
+                          ////////////// first////////////
                           TextFormField(
                             keyboardType: TextInputType.emailAddress,
                             controller: _emailController,
@@ -106,7 +106,7 @@ class _login_viewState extends State<login_view> {
                             },
                           ),
                           const Gap(10),
-                          ////////////// third////////////
+                          ////////////// second////////////
                           TextFormField(
                             keyboardType: TextInputType.emailAddress,
                             obscureText: isVisable,

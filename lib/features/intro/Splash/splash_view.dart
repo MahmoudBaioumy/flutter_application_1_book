@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/core/function/routing.dart';
-import 'package:flutter_application_1/features/auth/presention/view/signup_view.dart';
+import 'package:flutter_application_1/features/auth/presention/view/login_view.dart';
 
 class Splash_view extends StatefulWidget {
   const Splash_view({super.key});
@@ -15,7 +15,7 @@ class _Splash_viewState extends State<Splash_view> {
     super.initState();
 
     Future.delayed(const Duration(seconds: 4), () {
-      pushwithReplacement(context, const signup_viwe());
+      pushwithReplacement(context, const login_view());
     });
   }
 
